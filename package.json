@@ -2,7 +2,7 @@
   "author": "Yosuke Kumakura <kumatch@gmail.com>",
   "name": "keystore",
   "description": "A simple key-base value storage.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/keystore.js",
   "repository": {
     "type": "git",
