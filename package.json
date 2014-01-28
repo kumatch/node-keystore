@@ -10,13 +10,15 @@
   },
   "github": "https://github.com/kumatch/node-keystore",
   "dependencies": {
-    "lodash": "2.4",
-    "async": "0.2.10"
+    "lodash": "~2.4",
+    "async": "~0.2.10",
+    "mkdirp": "~0.3.5"
   },
   "devDependencies": {
     "sinon": "*",
     "chai": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "tmp": "0.0.23"
   },
   "optionalDependencies": {},
   "engines": {
