@@ -1,6 +1,6 @@
 {
   "author": "Yosuke Kumakura <kumatch@gmail.com>",
-  "name": "node-keystore",
+  "name": "keystore",
   "description": "A simple key-base value storage.",
   "version": "0.1.0",
   "main": "./lib/keystore.js",
