@@ -1,0 +1,28 @@
+{
+  "author": "Yosuke Kumakura <kumatch@gmail.com>",
+  "name": "node-keystore",
+  "description": "A simple key-base value storage.",
+  "version": "0.1.0",
+  "main": "./lib/keystore.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kumatch/node-keystore.git"
+  },
+  "github": "https://github.com/kumatch/node-keystore",
+  "dependencies": {
+    "lodash": "2.4",
+    "async": "0.2.10"
+  },
+  "devDependencies": {
+    "sinon": "*",
+    "chai": "*",
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/**/*.test.js"
+  }
+}
